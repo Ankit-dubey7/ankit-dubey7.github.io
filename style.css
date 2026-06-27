@@ -85,3 +85,12 @@ nav ul li a:hover{
     background:white;
     color:#111827;
 }
+.profile{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid #38bdf8;
+    margin-bottom:25px;
+    box-shadow:0 0 30px rgba(56,189,248,.5);
+}

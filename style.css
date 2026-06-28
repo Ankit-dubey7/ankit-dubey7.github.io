@@ -220,3 +220,12 @@ footer h3{
 html{
     scroll-behavior:smooth;
 }
+.card{
+
+opacity:0;
+
+transform:translateY(50px);
+
+transition:0.8s;
+
+}

@@ -229,3 +229,60 @@ section{
     background:#2563eb;
     transform:translateY(-5px);
 }
+/* Dark Mode Button */
+
+#theme-toggle{
+    background:#38bdf8;
+    color:white;
+    border:none;
+    padding:10px 15px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+#theme-toggle:hover{
+    background:#2563eb;
+}
+
+/* Scroll Top Button */
+
+#topBtn{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    width:50px;
+    height:50px;
+    border:none;
+    border-radius:50%;
+    background:#38bdf8;
+    color:white;
+    font-size:22px;
+    cursor:pointer;
+    display:none;
+    box-shadow:0 5px 15px rgba(0,0,0,.3);
+}
+
+/* Light Theme */
+
+body.light{
+    background:#f8fafc;
+    color:#111827;
+}
+
+body.light .navbar{
+    background:#ffffff;
+}
+
+body.light #about,
+body.light #experience,
+body.light #contact{
+    background:#f1f5f9;
+}
+
+body.light .experience-card,
+body.light .project-card,
+body.light .skill-card{
+    background:white;
+    color:#111827;
+}

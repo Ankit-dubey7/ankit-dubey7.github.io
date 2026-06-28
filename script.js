@@ -45,3 +45,8 @@ topBtn.onclick=function(){
     });
 
 }
+document.getElementById("mode").onclick=function(){
+
+document.body.classList.toggle("light");
+
+}

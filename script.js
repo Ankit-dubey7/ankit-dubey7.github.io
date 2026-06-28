@@ -50,3 +50,10 @@ document.getElementById("mode").onclick=function(){
 document.body.classList.toggle("light");
 
 }
+.light{
+
+background:white;
+
+color:black;
+
+}

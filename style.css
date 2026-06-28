@@ -266,3 +266,9 @@ transform:translateY(50px);
 transition:0.8s;
 
 }
+#mode{
+    padding:10px 15px;
+    cursor:pointer;
+    border:none;
+    border-radius:8px;
+}

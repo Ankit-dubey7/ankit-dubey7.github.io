@@ -367,3 +367,19 @@ transform:translateY(-8px);
 box-shadow:0 15px 35px rgba(56,189,248,.4);
 
 }
+/* Profile Photo */
+
+.profile{
+    width:220px;
+    height:220px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid #38bdf8;
+    margin-bottom:25px;
+    box-shadow:0 10px 30px rgba(56,189,248,0.4);
+    transition:0.4s;
+}
+
+.profile:hover{
+    transform:scale(1.05);
+}

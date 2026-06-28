@@ -210,3 +210,22 @@ html{
 section{
     scroll-margin-top:90px;
 }
+.social-links{
+    margin-top:30px;
+}
+
+.social-links a{
+    display:inline-block;
+    margin:10px;
+    padding:12px 25px;
+    background:#38bdf8;
+    color:#fff;
+    text-decoration:none;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+.social-links a:hover{
+    background:#2563eb;
+    transform:translateY(-5px);
+}

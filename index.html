@@ -115,7 +115,7 @@ Hi, I'm <strong>Ankit Dubey</strong>, a Technical Support Executive with experie
 </section>
 <h1>Hello, I'm <span>Ankit Dubey</span><img src="images/profile.jpg" alt= class="profile"></h1>
 
-<h3>Technical Support Executive</h3>
+<h3><span id="typing"></span></h3>
 
 <p>
 Currently working at Petpooja with experience in POS Support,
@@ -135,7 +135,19 @@ Technical Troubleshooting and Customer Support.
 </section>
 
 <script src="script.js"></script>
+const text = "Technical Support Executive";
+let i = 0;
 
+function typingEffect() {
+    if (i < text.length) {
+        document.getElementById("typing").innerHTML += text.charAt(i);
+        i++;
+        setTimeout(typingEffect, 100);
+    }
+}
+
+typingEffect();
+<button id="topBtn">⬆</button>        
 </body>
 
 </html>

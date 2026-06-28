@@ -126,3 +126,61 @@ body{
     line-height:32px;
     font-size:18px;
 }
+/* Projects */
+
+#projects{
+padding:80px 10%;
+text-align:center;
+}
+
+#projects h2{
+font-size:40px;
+color:#38bdf8;
+margin-bottom:40px;
+}
+
+.project-card{
+max-width:800px;
+margin:25px auto;
+background:#1e293b;
+padding:30px;
+border-radius:15px;
+transition:.3s;
+}
+
+.project-card:hover{
+transform:translateY(-10px);
+box-shadow:0 0 20px #38bdf8;
+}
+
+/* Contact */
+
+#contact{
+padding:80px 10%;
+text-align:center;
+background:#111827;
+}
+
+#contact h2{
+font-size:40px;
+color:#38bdf8;
+margin-bottom:30px;
+}
+
+#contact p{
+font-size:18px;
+margin:15px 0;
+}
+
+/* Footer */
+
+footer{
+background:#0b1120;
+padding:25px;
+text-align:center;
+margin-top:40px;
+}
+
+footer p{
+color:#94a3b8;
+}

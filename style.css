@@ -43,13 +43,22 @@ nav ul li a:hover{
 }
 
 .hero{
-    height:90vh;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    padding:20px;
+
+height:100vh;
+
+display:flex;
+
+flex-direction:column;
+
+justify-content:center;
+
+align-items:center;
+
+text-align:center;
+
+background:linear-gradient(135deg,#0f172a,#1e3a8a,#0f172a);
+
+}
 }
 
 .hero h1{

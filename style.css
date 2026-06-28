@@ -325,3 +325,32 @@ transform:translateY(0);
 }
 
 }
+.hero h1{
+
+font-size:65px;
+
+font-weight:700;
+
+}
+
+.hero h2{
+
+margin-top:20px;
+
+color:#38bdf8;
+
+font-size:38px;
+
+}
+
+.hero p{
+
+margin-top:25px;
+
+font-size:22px;
+
+max-width:850px;
+
+line-height:1.8;
+
+}

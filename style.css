@@ -184,3 +184,22 @@ margin-top:40px;
 footer p{
 color:#94a3b8;
 }
+.experience-card,
+.project-card,
+.skill-card{
+
+opacity:0;
+
+transform:translateY(40px);
+
+transition:0.7s ease;
+
+}
+
+.show{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
